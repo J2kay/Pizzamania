@@ -1,0 +1,55 @@
+nav {
+    background-color: rgb(199, 34, 47);
+    padding: 10px 5px;
+    height: 40px;
+}
+.brand {
+    color: white;
+    font-weight: 700; 
+}
+.brand:hover {
+    color: rgb(45, 45, 45);
+    cursor: pointer;
+}
+.navLeft {
+    float: right;
+}
+ul {
+    color: white;
+    list-style: none;
+    display: flex;
+}
+/*li {
+    margin-right: 30px;
+}*/
+li:hover {
+    color: rgb(45, 45, 45);
+    cursor: pointer;
+}
+.aboutSection {
+    margin-top: 25rem;
+    margin-bottom: 30px;
+    
+}
+.footer {
+    background-color: rgb(199, 34, 47);
+    color: rgb(270, 270, 270);
+    padding: 15px;
+    font-weight: 700;
+    max-width: 100%;
+}
+.footer {
+    margin: 0;
+    height: 50px;
+    
+}
+.set {
+    margin: 0 auto;
+}
+.carousel-content {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100vw;
+    height: 550px;
+    object-fit: contain;
+}
